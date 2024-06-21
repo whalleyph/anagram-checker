@@ -1,0 +1,22 @@
+function isAnagram(STR1, STR2) {
+    create an empty object (countOccurences)
+    check if 2 strings are the same length, if false - return false
+
+    make both strings lowercase
+
+    for every letter in STR1, if not in countOccurences{
+        add to countOccurences with value of 1}
+        else if already in countOccurences {
+            value +=1}
+
+
+    for every letter in STR2, if not in countOccurences{
+        return false}
+            else if already in countOccurences {
+            value -=1}
+
+    check object and if letter in countOccurence has a value over 0 {
+           return false  }
+
+return true
+}
